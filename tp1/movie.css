@@ -1,0 +1,36 @@
+/* Generated with EditiX XML Editor (http://www.editix.com) at Thu Nov 15 18:33:42 CET 2018 */
+
+movie {
+    background-color: lightsteelblue;
+    display: block;
+    font-family: "Times New Roman";
+    font-size: 12pt;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+title {
+    padding-top: 10px;
+    display: block;
+    font-weight:bold;
+    font-size: 14pt;
+}
+moviemaker{
+	padding-top: 10px;
+    display: block;
+    color: red;
+}
+yearofproduction{
+	padding-top: 10px;
+    display: block;
+    color: red;
+}
+actor{
+    padding-top: 10px;
+    display: block;
+    color: blue;
+    font-style: italic;
+}
+story,schedule{
+	 padding-top: 10px;
+    display: block;
+}

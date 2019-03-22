@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Fri Nov 16 11:35:46 CET 2018 -->
+
+<address-book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="address-book.xsd">
+	<contact type="person">
+		<name>
+Haoran
+</name>
+		<surname>
+HU
+</surname>
+		<phone-number>
+06 81 50 20 24
+</phone-number>
+		<address>
+			<street-number>
+40
+</street-number>
+			<street-name>
+camille blanc
+</street-name>
+			<city>
+Villejuif
+</city>
+			<zip-code>
+94800
+</zip-code>
+			<country>
+France
+</country>
+		</address>
+	</contact>
+</address-book>

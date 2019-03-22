@@ -1,0 +1,30 @@
+<!-- DTD created at Wed Nov 14 16:34:24 CET 2018 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (title,kind,duration,moviemaker,language,actors,yearofproduction,story,rating,schedules)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT kind (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT moviemaker (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT actors (actor+)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT yearofproduction (#PCDATA)>
+<!ELEMENT story (#PCDATA)>
+<!ELEMENT rating (press,speces)>
+<!ELEMENT press (#PCDATA)>
+<!ELEMENT speces (#PCDATA)>
+<!ELEMENT schedules (schedule+)>
+<!ELEMENT schedule (#PCDATA)>
+
+<!ATTLIST movie id CDATA #REQUIRED>
+
+<!ATTLIST moviemaker lang (en|fr) "en">
+
+<!ATTLIST actor id CDATA #REQUIRED>
+
+<!ATTLIST story lang (en|fr) "en">
+
+<!ATTLIST schedule id CDATA #REQUIRED>
+
+

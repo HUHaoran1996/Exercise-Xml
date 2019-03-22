@@ -1,0 +1,5 @@
+/liste/livre[position()=2]
+/liste/livre[position()>1]/titre
+/liste/livre[position()=2]|/liste/livre[position()=2]/titre
+/liste/livre[@genre='jeu' and last()]
+/liste/livre[parution=2006]/titre[position()=2]

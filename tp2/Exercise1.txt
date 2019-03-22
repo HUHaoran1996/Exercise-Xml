@@ -1,0 +1,5 @@
+/CDlist/CD/performance/composition
+/CDlist/CD/performance/composition[count@soloist=1]
+/CDlist/CD/performance[count@orchestra=1 and count@soloist!=1]
+/CDlist/CD[publisher='Deutsche Grammophon']/performance/soloist[orchestra='the London Symphony Orchestra']
+/CDlist/CD[orchestra='the London Symphony Orchestra']
